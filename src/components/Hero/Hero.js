@@ -18,7 +18,7 @@ const Hero = (props) => (
     <Section row nopadding>
       <LeftSection>
         <SectionTitle main center>
-          Hi My Name is{" "}
+          Hi My Name is <br />
           <span
             style={{
               background:
@@ -29,16 +29,13 @@ const Hero = (props) => (
             Virat Singh
           </span>{" "}
           <br />
-          Welcome To <br />
-          <>My Personal Portfolio</>
         </SectionTitle>
         <SectionText>
-          Creating engaging user interfaces with cutting-edge
-          technology.Building intuitive and accessible user interfaces for all
-          users that increase customer satisfaction
+          Building intuitive and accessible user interfaces for all users that
+          increase customer satisfaction
         </SectionText>
-        <Button href={"https://www.linkedin.com/in/virat-singh1997/"}>
-          Learn More
+        <Button href={"https://calendly.com/virat-singh199715/30min"}>
+          Book a Call to Learn More
         </Button>
       </LeftSection>
     </Section>
